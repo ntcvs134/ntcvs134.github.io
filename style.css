@@ -82,14 +82,15 @@ body {
 }  
 nav ul li a {
     text-decoration: none;
-    padding: 8px 10px;
+    padding: 8px 30px;
     color:  rgb(53, 35, 18);
     border-radius: 5px;
-    width: 80px;
+    width: fit-content;
     height: 15px;
-    font-size: 16px;
+    font-size: 14px;
     display: flex;
     text-align: left;
+    letter-spacing: 3px;
     float: left;
     align-items: center;
     justify-content: center;
@@ -603,7 +604,7 @@ margin-right: auto;
 .color-rectangle {
   background-color: #2C2D32;
   width: 250px; /* 調整寬度 */
-  height:6500px; /* 調整高度 */
+  height:1100%; /* 調整高度 */
   position: absolute;
  
   top: 24%;
@@ -666,8 +667,17 @@ margin-right: auto;
   width: fit-content;
 }
 
-
-
+.special{
+  color: #302019;
+  font-weight: bold;
+  font-family: "Noto Serif TC", serif;
+  padding: 8px;
+  text-align: center;
+  font-size: 14px;
+}
+.special:hover {
+  color: rgb(226, 144, 38);
+}
     @media screen and (max-width:451px){
  
        body{
@@ -912,7 +922,15 @@ pre{
 }
 
 
-
+.special{
+  color: #302019;
+  font-weight: bold;
+  font-family: "Noto Serif TC", serif;
+  padding: 8px;
+  text-align: center;
+  font-size: 8px;
+  line-height: 20px;
+}
 
 
 
